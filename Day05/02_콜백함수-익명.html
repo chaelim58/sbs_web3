@@ -9,11 +9,12 @@
         // 함수 선언
         function callThreeTimes(callback) {
             for( let i = 0 ; i < 3 ; i++ ) {
-                callback(i)
+                callback(i)     // callback 이라는 매개변수는 함수이므로 호출 가능
             }
         }
 
         // 함수 호출
+        // 익명 함수 사용
         // - 전달인자로 전달되는 함수를 '콜백함수'라고 한다.
         callThreeTimes(
             function (i) {
