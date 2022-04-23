@@ -18,8 +18,8 @@
             // 속성 노드 제거하기
             chicken.removeAttribute('style')
 
-            // 노드를 복제하여 새로운 노드로 추가
-            // 복제할노드.cloneNode(자식노드복제여부)
+            // 노드를 복제하여 새로운 노드로 추가, 해당 노드의 자식 노드 리스트 맨 마지막에 추가
+            // 복제할노드.cloneNode(자식노드복제여부)  : true 설정 시 객체에 포함된 자식까지 모두 복사
             ul.appendChild( li.cloneNode(true) )
         })
     </script>
