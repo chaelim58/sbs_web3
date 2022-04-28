@@ -62,7 +62,7 @@ h2 { text-align: center; }
     color: white;
 }
 
-.row::after {
+.row::after {       /* 내용이 빈 블록을 만들어 clear 속성으로 float 초기화 -> 가상요소 ::after 적용 */
     content: '';
     display: block;
     clear: both;

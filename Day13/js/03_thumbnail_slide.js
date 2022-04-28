@@ -37,6 +37,8 @@ function showSlides(n) {
 
     // 선택한 번호의 슬라이드만 보여주기
     // $( slides[slideIndex-1] ).css({'display' : 'block'})
+    // 1 2 3 4 5 : slideIndex
+    // 배열요소 접근 : 0 ~ N-1
     $( slides[slideIndex-1] ).show()
 
     // 선택 번호의 썸네일만 활성화
