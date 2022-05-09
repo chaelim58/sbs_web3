@@ -23,8 +23,8 @@ $(function() {
                 // 페이지 이동 시
                 onLeave: function(origin, destination, direction) {
                     console.log('onLeave : 페이지 이동')
-                    // origin       : 이동 전 페이지
-                    // destination  : 이동 후 페이지
+                    // origin       : 이동 전 페이지 (원래 있었던 섹션의 정보)
+                    // destination  : 이동 후 페이지 (이동하는 다음 섹션에 대한 정보)
                     // direction    : 방향 (up/down)
                     console.log('---------------------------');
                     console.log('orgin: ' + origin);
